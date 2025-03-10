@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Istanbul</title>
+     <link rel="stylesheet" href="css/guides.css">
+     <link rel="stylesheet" href="css/navbar.css">
+     <script src="https://kit.fontawesome.com/92f34d9fc0.js" crossorigin="anonymous"></script>
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&family=Kalnia&family=League+Spartan:wght@300;400;600;700&family=Philosopher&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+      body{
+        color: black;
+        font-family: 'Philosopher', sans-serif;
+      }
+    </style>
+  </head>
+<body style="background-color: floralwhite;">
+    <nav class="fixed-top">
+        <div id="logo" class="text-end">
+            <img src="img/logo_small.png" alt="Small logo" style="width: 60px; height: 60px;"> 
+        </div>
+        <div id="menu" class="text-start text-uppercase">
+            <a href="TurkishDelightAdventures.html">Home</a>
+            <a href="#subscribe" onclick="openPopup()">Subscribe</a>
+        </div>
+        <div id="social" class="text-center">
+            <input id="search" type="text" placeholder="Search">
+            <a href="https://www.facebook.com" target="_blank">
+                <i class="fa-brands fa-square-facebook fa-lg"></i>
+            </a>
+            <a href="https://www.twitter.com" target="_blank">
+                <i class="fa-brands fa-square-x-twitter fa-lg"></i>
+            </a>
+            <a href="https://www.instagram.com/" target="_blank">
+                <i class="fa-brands fa-square-instagram fa-lg"></i>
+            </a>
+        </div>
+    </nav>
+    <div class="popup" id="subscribePopup">
+    <span class="close-btn" onclick="closePopup()">×</span>
+    <h2>Subscribe to Our Newsletter</h2>
+    <p>Stay updated with the latest news and offers!</p>
+    <form id="subscribeForm">
+        <input type="email" placeholder="Enter your email" required>
+        <button type="submit">Subscribe</button>
+    </form>
+</div>
+    <header>
+        <div id="h-container" class="container mt-5">
+            <div id="h-text">
+                <h1>Istanbul</h1>
+                <hr>
+                <div id="paragraph">
+                <p>
+                  Istanbul, a captivating city straddling two continents, seamlessly blends ancient charm with modern vibrancy. Home to iconic landmarks like the Hagia Sophia and the Blue Mosque, its rich history unfolds along bustling bazaars and the scenic Bosphorus. Istanbul invites exploration, revealing a tapestry of culture, cuisine, and timeless allure.
+                </p>
+         <div id="dots">
+        <p class="dot dot1"></p>
+        <p class="dot dot2"></p>
+        <p class="dot dot3"></p>
+        <p class="dot dot4"></p>
+        <p class="dot dot5"></p>
+    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+      <h2>Where to stay?</h2>
+      <br>
+        <div class="row my-3">
+            <div class="col-sm">
+                <img src="img/sultanahmet.jpg" class="card-img-top" alt="Four Seasons Hotel Istanbul at Sultanahmet">
+                <div class="card-body">
+                  <h5 class="card-title"><strong>Four Seasons Hotel Istanbul at Sultanahmet</strong></h5>
+                  <p class="card-text">Located in the heart of the historic Sultanahmet district. Offers luxurious accommodations with stunning views of the Hagia Sophia and Blue Mosque. Features a courtyard restaurant serving Turkish and international cuisine
+                  </p>
+                </div>
+              </div>
+            <div class="col-sm">
+                <img src="img/çıragan.jpg" class="card-img-top" alt="Ciragan Palace Kempinski Istanbul">
+                <div class="card-body">
+                  <h5 class="card-title"><strong>Ciragan Palace Kempinski Istanbul</strong></h5>
+                  <p class="card-text"> Situated on the shores of the Bosphorus, this opulent palace-turned-hotel is a true luxury experience. Boasts lavish rooms, a beautiful garden, and an infinity pool overlooking the Bosphorus. Offers fine dining options and a spa for a complete indulgence.
+                 </p>
+                </div>
+            </div>
+            <div class="col-sm">
+                <img src="img/pera palace.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title"><strong>Pera Palace Hotel</strong></h5>
+                  <p class="card-text">A historic hotel with a unique blend of Neo-Classical, Art Nouveau, and Oriental styles. Famous guests include Agatha Christie and Ernest Hemingway. Offers luxurious rooms, a spa, and the iconic Orient Bar.
+                 </p>
+                </div>
+            </div>
+          </div>
+    </div>
+    <div class="container">
+      <h2>Where to eat?</h2>
+      <br>
+        <div class="row my-3">
+            <div class="col-sm">
+                <img src="img/mikla.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title"><strong>Mikla</strong></h5>
+                  <p class="card-text">Located in the vibrant Beyoğlu district.Offers modern Turkish cuisine with a Nordic twist.Panoramic views of the city skyline.
+                 </p>
+                </div>
+              </div>
+            <div class="col-sm">
+                <img src="img/karakoy_lokantasi.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title"><strong>Karakoy Lokantası</strong></h5>
+                  <p class="card-text">A renowned restaurant in Kadıköy. Serves a diverse array of traditional Turkish dishes. Emphasizes fresh, seasonal ingredients.
+                 </p>
+                </div>
+            </div>
+            <div class="col-sm">
+                <img src="img/Nusret (3).jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title"><strong>Nusr-Et Steakhouse</strong></h5>
+                  <p class="card-text">Famous for "Salt Bae" and his theatrical salt-sprinkling technique. Specializes in high-quality steaks and Ottoman-inspired dishes. Located in Etiler. </p>
+                 </div>
+            </div>
+      </div>
+    </div>
+    <div class="container">
+      <h2>Activities in Istanbul</h2>
+      <br>
+        <div class="row my-3">
+            <div class="col-sm">
+                <img src="img/ayasofya.jpeg" class="card-img-top" alt="Hagia Sophia">
+                <div class="card-body">
+                  <h5 class="card-title"><strong>Visit Hagia Sophia</strong></h5>
+                  <p class="card-text">Explore the iconic Hagia Sophia, a UNESCO World Heritage Site, showcasing both Christian and Islamic history.
+                 </p>
+                </div>
+              </div>
+            <div class="col-sm">
+                <img src="img/ayasofya.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title"><strong>Topkapi Palace</strong></h5>
+                  <p class="card-text">Discover the opulent Topkapi Palace, former residence of Ottoman sultans, and its beautiful gardens.</p>
+                </div>
+            </div>
+            <div class="col-sm">
+                <img src="img/Istanbul-Grand-Bazaar.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title"><strong>Stroll in the Grand Bazaar</strong></h5>
+                  <p class="card-text">Immerse yourself in the vibrant atmosphere of the Grand Bazaar, one of the world's oldest and largest covered markets.</p>
+                </div>
+            </div>
+      </div>
+    </div>
+<section class="toknow">
+  <div class="container">
+    <br>
+  <h3>Important things to know</h3>
+  </div>
+<div class="things">
+    <p id="description"><strong>Location and Geography:</strong>
+    <br>
+    Istanbul is a transcontinental city, spanning both Europe and Asia, separated by the Bosphorus Strait.</p>
+    <br>
+    <p id="description"><strong>Historical Significance:</strong>
+    <br>
+    Formerly Byzantium and Constantinople, Istanbul is steeped in history, serving as the capital of both the Byzantine and Ottoman Empires.</p>
+    <br>
+    <p id="description"><strong>Architectural Marvels:</strong>
+    <br>
+    Iconic landmarks like the Hagia Sophia, Blue Mosque, and Topkapi Palace grace Istanbul's skyline, showcasing a blend of Byzantine, Ottoman, and modern architecture.</p><br>
+    <p id="description"><strong>Bosphorus Strait:</strong>
+    <br>
+    The Bosphorus Strait, dividing the city, not only offers stunning views but also serves as a vital maritime passage.</p><br>
+    <p id="description"><strong>Cultural Fusion:</strong>
+    <br>
+    Istanbul's diverse population contributes to a vibrant cultural scene, blending European and Asian influences in arts, music, and cuisine.</p><br>
+    <p id="description"><strong>Grand Bazaar:</strong>
+    <br>
+    The Grand Bazaar, one of the world's oldest covered markets, is a bustling hub where visitors can explore a wide array of goods and traditional crafts.</p><br>
+    <p id="description"><strong>Cuisine:</strong>
+    <br>
+    Istanbul is a culinary delight, offering Turkish specialties like kebabs, baklava, and street food, showcasing the city's gastronomic richness.</p><br>
+    <p id="description"><strong>Public Transportation:</strong>
+    <br>
+    Istanbul's extensive public transportation system, including buses, trams, and ferries, makes navigating the city convenient for both locals and tourists.</p><br>
+    <p id="description"><strong>Diverse Neighborhoods:</strong>
+    <br>
+    Each neighborhood in Istanbul has a unique character, from the historic Sultanahmet to the trendy Beyoglu, providing diverse experiences.</p><br>
+    <p id="description"><strong>Language and Hospitality:</strong>
+    <br>
+    While Turkish is the official language, English is widely spoken, and the locals are known for their warm hospitality towards visitors.</p><br>
+    <p id="description"><strong>Religious Diversity:</strong>
+    <br>
+    Istanbul's skyline is adorned with minarets and domes, reflecting its religious diversity with mosques, churches, and synagogues coexisting harmoniously.</p><br>
+    <p id="description"><strong>Modern Istanbul:</strong>
+    <br>
+    Beyond its historical charm, Istanbul boasts modern amenities, shopping districts, and a lively nightlife, with areas like Taksim Square and Istiklal Avenue offering entertainment and leisure.</p>
+    <br>
+    Remember to check travel advisories and stay informed about local regulations and customs during your visit to Istanbul.
+    <br>
+<br>
+</div>
+</section>
+    <footer>
+   <p id="footer">&copy; 2023 Turkish Delight Adventures. All rights reserved.</p>
+</footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script>
+    function openPopup() {
+        document.getElementById('subscribePopup').style.display = 'block';
+    }
+
+    function closePopup() {
+        document.getElementById('subscribePopup').style.display = 'none';
+    }
+</script>
+<script>
+    function openNewPage(pageUrl) {
+        window.open(pageUrl, '_blank');
+    }
+</script>
+</body>
+</html>

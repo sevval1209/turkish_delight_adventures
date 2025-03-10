@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Inter:wght@300;400;700&family=Philosopher&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&family=Voltaire&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+}
+body{
+    font-family: 'Bungee', 'Inter', 'Philosopher', sans-serif;
+    background-color: floralwhite;
+    scroll-behavior: smooth;
+}
+a{
+        text-decoration: none;
+        cursor: pointer;
+}
+.container {
+        width:auto; 
+        height: auto; 
+        overflow: hidden;
+}
+    
+.container img {
+        width: 100%; 
+        height: 400px; 
+        display: block;
+}
+.inside-boxes {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    padding: 40px;
+}
+.box {
+    height: 100px;
+    background-color:whitesmoke;
+    color: #b04169;
+    text-align: center;
+    line-height: 100px;
+    font-size: 4rem;
+    font-weight: 300;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(181, 112, 159, 0.1);
+}
+header {
+    height: 400px;
+    margin-top: 20px;
+    background-color: antiquewhite;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+header #h-container #h-text h1 {
+    font-size: 5rem;
+    color: #382f48;
+    font-weight: 700;
+    text-shadow: 3px 3px #d09c9f;
+    padding: auto;
+}
+.container h2 {
+    font-size: 5rem;
+    color: #382f48;
+    font-weight: 700;
+    padding: auto;
+    font-family: 'Bungee', 'Inter', 'Philosopher', sans-serif;
+}
+.container h3 {
+    font-size: 5rem;
+    color: #382f48;
+    font-weight: 700;
+    text-shadow: 3px 3px #d09c9f;
+    padding: auto;
+    font-family: 'Bungee', 'Inter', 'Philosopher', sans-serif;
+}
+.container h5 {
+    color: #382F48;
+    font-family: 'Paytone One', 'Voltaire', sans-serif;
+    font-size: 2rem;
+}
+.card-text {
+    color: #963484;
+    font-family: 'Paytone One', 'Voltaire', sans-serif;
+    font-size: 15px;
+}
+#h-text {
+    flex: 50%;
+    padding: 20px;
+    font-size: 5rem;
+    font-weight: 700;
+    color:  #9c4061;
+    font-family: 'Bungee', 'Inter', 'Philosopher', sans-serif;
+}
+#paragraph{
+    flex: 50%;
+    padding: 20px;
+    font-size: 2rem;
+    font-weight: 300;
+    color: #382F48;
+    font-family: 'Bungee', 'Inter', 'Philosopher', sans-serif;
+}
+.container {
+    width: 100%;
+    margin: 50px;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 40px;
+}
+
+.things {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Paytone One', 'Voltaire', sans-serif;
+    font-size: 18px;
+    color: #382f48;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.toknow {
+        background-color: antiquewhite;
+}
+#description {
+    font-family: 'Paytone One', 'Voltaire', sans-serif;
+    font-size: 20px;
+    color: #382f48;
+}
+#dots {
+    display: flex;
+    justify-content: center;
+    padding: auto;
+    align-items: center;
+    font-family: 'Paytone One', 'Voltaire', sans-serif;
+    margin: 20px;
+}
+.dot {
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background-color: #382f48;
+            margin: 0 5px;
+}
+.dot1 {
+    width: 10px;
+    height: 10px;
+}
+
+.dot2 {
+    width: 20px;
+    height: 20px;
+}
+
+.dot3 {
+    width: 25px;
+    height: 25px;
+}
+
+.dot4 {
+    width: 20px;
+    height: 20px;
+}
+
+.dot5 {
+    width: 10px;
+    height: 10px;
+} 
+footer {
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    flex: 100%;
+    height: auto;
+    background-color: #d09c9f;
+    color: whitesmoke;
+    padding: 40px;
+    margin: 0 auto;
+    font-size: 14px;
+    font-family: 'Paytone One', 'Voltaire', sans-serif;
+}
+.popup {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+            font-family: 'Paytone One', 'Voltaire', sans-serif;
+}
+.close-btn {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            cursor: pointer;
+}

@@ -1,0 +1,301 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Inter:wght@300;400;700&family=Philosopher&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&family=Voltaire&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+}
+body{
+    font-family: 'Bungee', 'Inter', 'Philosopher', sans-serif;
+    background-color:floralwhite;
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+#menu a{
+    padding: 10px;
+}
+#menu a, #social a{
+    color: #fff;
+}
+#menu a:hover, #social a:hover{
+    color: #d86077;
+}
+nav{
+    display: flex;
+    align-items: center;
+    background-color: #d09c9f;
+    flex: 100%;
+    height: 65px;
+}
+#logo {
+    flex: 12%;
+    padding: 10px;
+}
+#menu{
+    flex: 50%;
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+#social {
+    flex: 38%;
+    font-size: 1.5rem;
+    color: #f64c71;
+}
+#search {
+    padding: 0px 10px;
+    font-size: 1.5rem;
+    margin-right: 5px;
+    background-image: linear-gradient(to right top, #b04169, #c55671, #d96b7a, #ec8083, #fe968e);
+    border: 0;
+    border-radius: 20px;
+}
+#search::placeholder {
+  color: whitesmoke;
+  opacity: 1;
+  font-size: 1.2rem;
+  font-family: 'Paytone One', 'Voltaire', sans-serif;
+}
+header{
+    display: flex;
+    align-items: center;
+    flex: 100%;
+    max-height: 700px;
+    background-color: #d09c9f;
+    margin-top: 50px;
+}
+#h-container{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+img logo {
+     width: 100%;
+     height: auto;
+     margin-bottom: 10px; 
+}
+h1 {
+	font-size: 5rem;
+	color: #382f48;
+	font-weight: 700;
+    text-shadow: 3px 3px #d09c9f;
+}
+h3 {
+    margin-bottom: 20px; 
+    font-size: 5rem;
+    color: #382f48;
+    font-weight: 700;
+    text-shadow: 3px 3px #d09c9f;
+}
+h4 {
+	font-size: 3rem;
+}
+h5 {
+    font-size: 5rem;
+    color: #382f48;
+}
+#inside-boxes {
+    margin: 20px;
+    text-align: center;
+}
+#available-guides {
+    margin: 30px;
+}
+#about-us {
+    margin: 30px;
+    text-align: center;
+}
+#dots {
+    display: flex;
+    justify-content: center;
+    padding: auto;
+    align-items: center;
+    font-family: 'Paytone One', 'Voltaire', sans-serif;
+    margin: 60px;
+}
+.dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #382f48;
+    margin: 0 5px;
+}
+.dot1 {
+    width: 10px;
+    height: 10px;
+}
+
+.dot2 {
+    width: 20px;
+    height: 20px;
+}
+
+.dot3 {
+    width: 25px;
+    height: 25px;
+}
+
+.dot4 {
+    width: 20px;
+    height: 20px;
+}
+
+.dot5 {
+    width: 10px;
+    height: 10px;
+}       
+#description {
+    font-family: 'Paytone One', 'Voltaire', sans-serif;
+   	font-size: 18px;
+    color: #382f48;
+   }
+#h-text{
+    flex: 50%;
+    padding: 20px;
+    color: whitesmoke;
+    font-size: 2rem;
+    font-weight: 300;
+}
+#h-text h1 {
+    font-size: 5rem;
+    color: #382f48;
+    font-weight: 700;
+    text-shadow: 3px 3px whitesmoke;
+    padding: auto;
+    margin-top: 20px;
+}
+.btn {
+	height: 80px;
+	width: 400px;
+    font-size: 5rem;
+    font-weight: 600;
+    background-color: #382f48;
+    border: none;
+    color: whitesmoke;
+ }
+.btn:hover {
+ 	background-color: #d09c9f;
+ }
+.btn-learn-more {
+    padding: 10px 20px;
+    font-size: 2rem;
+    font-weight: 600;
+    background-color: #382f48;
+    border: none;
+    color: whitesmoke;
+    margin-top: 10px;
+ }
+.btn-learn-more:hover {
+ 	background-color: floralwhite;
+    color: #382f48;
+ }
+.inside-boxes {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    padding: 15px;
+}
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    background-color: #9c4061;
+    color: whitesmoke;
+    font-size: 2rem; /* Adjust font size as needed */
+    font-weight: 600;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.guide-section {
+      display: flex;
+      margin-bottom: 30px;
+      padding: auto;
+}
+.description {
+      max-width: 50%;
+      padding: auto;
+}
+.carousel {
+     max-width: 95%;
+     margin: 0;
+}
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: antiquewhite;
+    justify-content: center;
+    margin: 0;
+    padding: auto;
+}
+#about-us {
+	margin: 20px;
+	text-align: center;
+	padding: auto;
+}
+.btn-contact-us,
+.btn-subscribe {
+    padding: 15px 30px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    background-color: #382f48;
+    border: none;
+    color: whitesmoke;
+    cursor: pointer;
+}
+.btn-contact-us:hover, .btn-subscribe:hover {
+    background-color: antiquewhite;
+    color: #382f48;
+}
+.contact-subscribe-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.btn-subscribe {
+    margin-left: 20px;
+}
+footer {
+	align-items: center;
+	flex-direction: column;
+    display: flex;
+    flex: 100%;
+    height: auto;
+    background-color: #d09c9f;
+    color: whitesmoke;
+    padding: 40px;
+    margin: 0 auto;
+    font-size: 14px;
+    font-family: 'Paytone One', 'Voltaire', sans-serif;
+}
+.popup {
+            font-family: 'Paytone One', 'Voltaire', sans-serif;
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+}
+.close-btn {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            cursor: pointer;
+}

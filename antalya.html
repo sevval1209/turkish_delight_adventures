@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Antalya</title>
+    <link rel="stylesheet" href="css/guides.css">
+    <link rel="stylesheet" href="css/navbar.css">
+     <script src="https://kit.fontawesome.com/92f34d9fc0.js" crossorigin="anonymous"></script>
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&family=Kalnia&family=League+Spartan:wght@300;400;600;700&family=Philosopher&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  </head>
+<body style="background-color: floralwhite;">
+    <nav class="fixed-top">
+        <div id="logo" class="text-end">
+            <img src="img/logo_small.png" alt="Small logo" style="width: 60px; height: 60px;"> 
+        </div>
+        <div id="menu" class="text-start text-uppercase">
+            <a href="TurkishDelightAdventures.html">Home</a>
+            <a href="#subscribe" onclick="openPopup()">Subscribe</a>
+        </div>
+        <div id="social" class="text-center">
+            <input id="search" type="text" placeholder="Search">
+            <a href="https://www.facebook.com" target="_blank">
+                <i class="fa-brands fa-square-facebook fa-lg"></i>
+            </a>
+            <a href="https://www.twitter.com" target="_blank">
+                <i class="fa-brands fa-square-x-twitter fa-lg"></i>
+            </a>
+            <a href="https://www.instagram.com/" target="_blank">
+                <i class="fa-brands fa-square-instagram fa-lg"></i>
+            </a>
+        </div>
+    </nav>
+    <div class="popup" id="subscribePopup">
+    <span class="close-btn" onclick="closePopup()">×</span>
+    <h2>Subscribe to Our Newsletter</h2>
+    <p>Stay updated with the latest news and offers!</p>
+    <form id="subscribeForm">
+        <input type="email" placeholder="Enter your email" required>
+        <button type="submit">Subscribe</button>
+    </form>
+</div>
+    <header>
+      <div id="h-container" class="container mt-5">
+          <div id="h-text">
+              <h1>Antalya</h1>
+              <hr>
+              <div id="paragraph">
+              <p>
+                Nestled along the stunning Turkish Riviera, Antalya beckons with its captivating blend of ancient history and breathtaking natural beauty. Known for its sun-kissed beaches, vibrant markets, and the well-preserved remnants of its Roman past, this coastal gem is a haven for travelers seeking a perfect harmony of culture and leisure. Explore historic sites, indulge in Mediterranean cuisine, and soak in the warmth of Antalya's hospitality.
+              </p>
+               <div id="dots">
+        <p class="dot dot1"></p>
+        <p class="dot dot2"></p>
+        <p class="dot dot3"></p>
+        <p class="dot dot4"></p>
+        <p class="dot dot5"></p>
+    </div>
+              </div>
+          </div>
+      </div>
+  </header>
+  <div class="container">
+    <h2>Where to stay?</h2>
+      <div class="row my-3">
+          <div class="col-sm">
+              <img src="img/kemer.jpg" class="card-img-top" alt="Maxx Royal Kemer Resort Picture">
+              <div class="card-body">
+                <h5 class="card-title"><strong>Maxx Royal Kemer Resort</strong></h5>
+                <p class="card-text">An ultra-luxurious resort with private beaches, villas with pools, gourmet dining, and a comprehensive spa. Perfect for a lavish and exclusive getaway.
+                </p>
+              </div>
+          </div>
+          <div class="col-sm">
+              <img src="img/lara.jpg" class="card-img-top" alt="Liberty Hotels Lara Picture">
+              <div class="card-body">
+                <h5 class="card-title"><strong>Liberty Hotels Lara</strong></h5>
+                <p class="card-text">Family-friendly resort with spacious rooms, a water park, various dining choices, and entertainment options. Great for families and leisure travelers.
+                </p>
+              </div>
+          </div>
+          <div class="col-sm">
+            <img src="img/alp-pasa.jpg" class="card-img-top" alt="Alp Pasa Hotel Picture">
+            <div class="card-body">
+              <h5 class="card-title"><strong>Alp Pasa Hotel</strong></h5>
+              <p class="card-text"> Housed in a restored Ottoman mansion, Alp Pasa Hotel provides a cozy and authentic atmosphere. It's centrally located, making it convenient for exploring the historic sites.
+              </p>
+            </div>
+          </div>
+   </div>
+  </div>
+ <div class="container">
+    <h2>Where to eat?</h2>
+    <div class="row my-3">
+      <div class="col-sm">
+        <img src="img/Seraser-Fine-Dining-Restaurant.jpg" class="card-img-top" alt="Seraser Fine Dining Restaurant Picture">
+          <div class="card-body">
+            <h5 class="card-title"><strong>Seraser Fine Dining Restaurant</strong></h5>
+            <p class="card-text">Located in Kaleiçi, Seraser offers a fine dining experience with Turkish and Mediterranean cuisine in a historic setting.
+           </p>
+          </div>
+        </div>
+          <div class="col-sm">
+            <img src="img/pio-gastro-bar-bistro.jpg" class="card-img-top" alt="Pio Gastro Bar Picture">
+            <div class="card-body">
+              <h5 class="card-title"><strong>Pio Gastro Bar</strong></h5>
+              <p class="card-text">A modern restaurant in the city center, Pio Gastro Bar is known for its creative dishes and a diverse menu.
+              </p>
+            </div>
+        </div>
+          <div class="col-sm">
+            <img src="img/Vanilla-Lounge.jpg" class="card-img-top" alt="Vanilla Lounge Picture">
+            <div class="card-body">
+              <h5 class="card-title"><strong>Vanilla Lounge</strong></h5>
+              <p class="card-text">Situated in the Lara district, Vanilla Lounge is a stylish restaurant offering a fusion of international flavors and Turkish cuisine.
+              </p>
+          </div>
+        </div>
+    </div>
+  </div>
+  <div class="container">
+    <h2>Activities in Antalya</h2>
+    <div class="row my-3">
+          <div class="col-sm">
+            <img src="img/hadrianstor-in-antalya.jpg" class="card-img-top" alt="Hadrian's Gate Picture">
+            <div class="card-body">
+              <h5 class="card-title"><strong>Visit Hadrian's Gate</strong></h5>
+              <p class="card-text">Admire the well-preserved Hadrian's Gate, a Roman triumphal arch that marks the entrance to Kaleiçi.
+              </p>
+            </div>
+              </div>
+          <div class="col-sm">
+            <img src="img/duden-waterfalls.jpg" class="card-img-top" alt="Düden Waterfalls Picture">
+            <div class="card-body">
+              <h5 class="card-title"><strong>Visit Düden Waterfalls</strong></h5>
+              <p class="card-text">Witness the breathtaking Düden Waterfalls, where the Düden River cascades off a cliff into the Mediterranean Sea.                 
+              </p>
+          </div>
+          </div>
+          <div class="col-sm">
+            <img src="img/Aspendos.jpg" class="card-img-top" alt="Aspendos Picture">
+            <div class="card-body">
+              <h5 class="card-title"><strong>Go to Aspendos</strong></h5>
+              <p class="card-text">Visit the ancient theater of Aspendos, one of the best-preserved Roman theaters in the world, still used for performances today.
+              </p>
+              </div>
+          </div>
+    </div>
+  </div>
+  <section class="toknow">
+  <div class="container">
+    <br>
+  <h3>Important things to know</h3>
+</div>
+  <div class="things">
+  <p id="description"><b>Location and Geography:</b>
+  <br>
+Antalya is a city on the southwestern coast of Turkey, along the Mediterranean Sea.
+The region is known for its stunning coastline, beaches, and the Taurus Mountains.</p>
+<br>
+<p id="description"><b>Climate:</b>
+<br>
+Antalya has a Mediterranean climate with hot, dry summers and mild, wet winters.
+Summers are generally long, and the sea remains warm for swimming.</p>
+<br>
+<p id="description"><b>Tourist Attractions:</b>
+<br>
+Antalya is home to historical sites, including Kaleiçi (Old Town), Hadrian's Gate, and the Antalya Museum.
+Nearby ancient cities like Perge, Aspendos, and Phaselis offer well-preserved ruins.</p><br>
+<p id="description"><b>Beaches:</b>
+<br>
+The region boasts beautiful beaches, such as Konyaaltı Beach and Lara Beach, known for their clear waters and sandy shores.</p><br>
+<p id="description"><b>Accommodation:</b>
+<br>
+Antalya offers a wide range of accommodation options, including luxury resorts, boutique hotels, and budget-friendly choices.</p><br>
+<p id="description"><b>Cuisine:</b>
+<br>
+Enjoy traditional Turkish cuisine in Antalya, featuring dishes like kebabs, mezes, and seafood.
+Local markets and restaurants offer fresh produce, spices, and traditional sweets.</p><br>
+<p id="description"><b>Transportation:</b>
+<br>
+Antalya has an international airport (Antalya Airport) with regular flights connecting to major cities worldwide.
+Public transportation includes buses and trams, making it easy to navigate the city.</p><br>
+<p id="description"><b>Activities:</b>
+<br>
+Outdoor activities abound, including water sports, hiking in the Taurus Mountains, and boat trips along the coast.
+The region is a popular destination for golf enthusiasts.</p>
+<br>
+<p id="description"><b>Culture and Festivals:</b>
+<br>
+Antalya hosts various cultural events and festivals throughout the year, celebrating music, film, and local traditions.</p><br>
+<p id="description"><b>Language:</b>
+<br>
+The official language is Turkish, but English is widely spoken in tourist areas.</p>
+<br>
+<p id="description"><b>Currency:</b>
+<br>
+The official currency is the Turkish Lira (TRY).</p><br>
+<p id="description"><b>Safety:</b>
+<br>
+Antalya is generally considered safe for tourists. However, it's always advisable to take standard safety precautions.</p><br>
+<p id="description"><b>Local Hospitality:</b>
+<br>
+Turkish people are known for their hospitality, and visitors often experience warm welcomes.</p><br>
+<p id="description"><b>Shopping:</b>
+  <br>
+Explore local markets (bazaars) for souvenirs, carpets, spices, and handmade crafts.</p><br>
+<p id="description"><b>Healthcare:</b>
+<br>
+Antalya has well-equipped medical facilities, and healthcare services are available for tourists.</p>
+<br>
+Remember to check travel advisories and stay informed about local regulations and customs during your visit to Antalya.
+<br>
+<br>
+</div>
+</section>
+<footer>
+   <p id="footer">&copy; 2023 Turkish Delight Adventures. All rights reserved.</p>
+</footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script>
+    function openPopup() {
+        document.getElementById('subscribePopup').style.display = 'block';
+    }
+
+    function closePopup() {
+        document.getElementById('subscribePopup').style.display = 'none';
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/main.css">
+	<script src="https://kit.fontawesome.com/92f34d9fc0.js" crossorigin="anonymous"></script>
+	<title>Turkish Delight Adventures</title>
+</head>
+<body>
+	<nav class="fixed-top">
+     <div id="logo" class="text-end">
+        <img class="logo" src="img/logo_small.png" alt="Small logo" style="width: 60px; height: 60px;"> 
+    </div>
+    <div id="menu" class="text-start text-uppercase">
+        <a href="#">Home</a>
+        <a href="#availableguides">Guides</a>
+        <a href="#aboutus">About Us</a>
+        <a href="contact.html" target="_blank">Contact</a>
+        <a href="#subscribe" onclick="openPopup()">Subscribe</a>
+    </div>
+    <div id="social" class="text-center">
+        <input id="search" type="text" placeholder="Search">
+        <a href="https://www.facebook.com" target="_blank">
+            <i class="fa-brands fa-square-facebook fa-lg"></i>
+        </a>
+        <a href="https://www.twitter.com" target="_blank">
+            <i class="fa-brands fa-square-x-twitter fa-lg"></i>
+        </a>
+        <a href="https://www.instagram.com/" target="_blank">
+            <i class="fa-brands fa-square-instagram fa-lg"></i>
+        </a>
+    </div>
+</nav>
+<div class="popup" id="subscribePopup">
+    <span class="close-btn" onclick="closePopup()">×</span>
+    <h2>Subscribe to Our Newsletter</h2>
+    <p>Stay updated with the latest news and offers!</p>
+    <form id="subscribeForm">
+        <input type="email" placeholder="Enter your email" required>
+        <button type="submit">Subscribe</button>
+    </form>
+</div>
+<header>
+	<div id="h-container">
+         <div id="h-image" class="text-end"><img src="img/logo.png" alt="logo" height="600"></div>
+         <div id="h-text" class="text-start">
+		<h1>TURKISH DELIGHT ADVENTURES</h1>
+        <h2 style="color: #382f48;"><b>by Lisa and Şevval</b></h2>
+        <div class="rectangle"></div>
+        <p><hr>Embark on unforgettable journeys with Turkish Delight Adventures, your premier travel guide company in Turkey. Our expert guides blend rich cultural insights with local expertise, ensuring immersive experiences in enchanting destinations all around Turkey.
+        Let us transform your travels into a delightful exploration of Turkey's captivating wonders.</p>
+        <hr>
+        <br>
+        <button class="btn" onclick="scrollToSection('aboutus')">ABOUT US</button>    
+    </div>
+</div>
+</header>
+<section class="decoration">
+    <div id="dots">
+        <p class="dot dot1"></p>
+        <p class="dot dot2"></p>
+        <p class="dot dot3"></p>
+        <p class="dot dot4"></p>
+        <p class="dot dot5"></p>
+    </div>
+</section>
+<section class="guides-description">
+<div id="inside-boxes">
+<h1>What's inside the guide?</h1>
+<div class="inside-boxes">
+    <div class="box"><h4>Where to stay?</h4></div>
+    <div class="box"><h4>Where to eat?</h4></div>
+    <div class="box"><h4>How to go?</h4></div>
+    <div class="box"><h4>What to do?</h4></div>
+    <div class="box"><h4>What to see?</h4></div>
+    <div class="box"><h4>Things to know</h4></div>
+</div>
+</div>
+</section>
+<section class="guides" id="availableguides">
+<div id="available-guides">
+<h3>Available Guides</h3>
+
+<!-- Guide Section 1 -->
+<div class="guide-section">
+    <div class="carousel">
+        <div id="carouselExample1" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/istanbul-1.jpg" class="d-block w-100" alt="Istanbul 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/istanbul-2.jpg" class="d-block w-100" alt="Istabul 2">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample1" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample1" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <div class="description">
+        <h5><b>Istanbul</b></h5><br>
+        <p id="description">Istanbul, a vibrant metropolis straddling Europe and Asia, captivates with its rich history, ornate architecture, and bustling bazaars. Explore iconic landmarks, savor diverse cuisine, and experience the unique blend of cultures.</p>
+        <hr>
+        <button class="btn-learn-more" onclick="openNewPage('istanbul.html')">Learn More...</button>
+    </div>
+</div>
+<div class="guide-section">
+    <div class="description">
+        <h5><b>Cappadocia</b></h5><br>
+        <p id="description">Cappadocia, a captivating region in central Turkey, enchants with its otherworldly landscapes of fairy-tale chimneys and cave dwellings. Rich in history and culture, it offers an unforgettable, surreal experience.</p>
+        <hr>
+        <button class="btn-learn-more" onclick="openNewPage('kapadokya.html')">Learn More...</button>
+
+    </div>
+    <div class="carousel">
+        <div id="carouselExample2" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/kapadokya-1.jpg" class="d-block w-100" alt="Guide 4">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/kapadokya-2.jpg" class="d-block w-100" alt="Guide 5">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample2" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample2" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+</div>
+<div class="guide-section">
+    <div class="carousel">
+        <div id="carouselExample3" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/antalya-1.jpg" class="d-block w-100" alt="Guide 7">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/antalya-2.jpg" class="d-block w-100" alt="Guide 8">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample3" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample3" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <div class="description">
+        <h5><b>Antalya</b></h5><br>
+        <p id="description">Antalya, a captivating city on Turkey's southwestern coast, boasts stunning beaches, ancient ruins, and vibrant markets. With its rich history and picturesque landscapes, Antalya is a captivating blend of modernity and tradition.</p>
+        <hr>
+        <button class="btn-learn-more" onclick="openNewPage('antalya.html')">Learn More...</button>
+    </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</div>
+</section>
+<section class="decoration">
+    <div id="dots">
+        <p class="dot dot1"></p>
+        <p class="dot dot2"></p>
+        <p class="dot dot3"></p>
+        <p class="dot dot4"></p>
+        <p class="dot dot5"></p>
+    </div>
+</section>
+<section class="about" id="aboutus">
+<div id="about-us">
+    <h1>About Us</h1><br><hr>
+     <p id="description">
+            Welcome to Turkish Delight Adventures, where travel transcends into unforgettable tales and cultural revelations. Founded in 2023 by avid explorers Lisa and Şevval, our guide company is more than just a journey; it's a curated experience woven with passion and expertise.
+        </p>
+        <p id="description">
+            <strong>• OUR MISSION: •</strong><br>To redefine travel by providing immersive experiences that go beyond the ordinary, unveiling the heart and soul of each destination we explore.
+        </p>
+        <p id="description">
+            <strong>• MEET THE FOUNDERS: •</strong><br>Lisa and Şevval, fueled by a shared love for discovery, have traversed the globe, accumulating stories and cultural insights. Their vision is to share the beauty of Turkey through personalized, enriching journeys.
+        </p>
+        <p id="description">
+            <strong>• WHY CHOOSE US: •</strong><br>At Turkish Delight Adventures, we blend expertise with a personal touch. Our guides are not just experts; they are storytellers, offering a unique perspective that transforms your travels into an exploration of wonders.
+        </p>
+        <br>
+        <p id="description">
+            Join us as we uncover hidden gems, savor local flavors, and create memories that last a lifetime. Experience Turkey through our eyes, where every journey is a delightful exploration.
+        </p><hr>
+    </div>
+</div>
+<div class="contact-subscribe-buttons">
+        <button class="btn-contact-us" onclick="openNewPage('contact.html')">Contact Us</button>
+        <button class="btn-subscribe" class="btn-subscribe"  onclick="openPopup()">Subscribe</button>
+</div>
+</section>
+<footer>
+   <p id="footer">&copy; 2023 Turkish Delight Adventures. All rights reserved.</p>
+</footer>
+<script>
+        function scrollToSection(aboutus) {
+            document.getElementById(aboutus).scrollIntoView({ behavior: 'smooth' });
+        }
+</script>
+<script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                const targetSection = this.getAttribute('href');
+                if (targetSection === '#') {
+                    window.scrollTo({ top: 0, behavior: 'smooth' });
+                } else {
+                    document.querySelector(targetSection).scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    </script>
+<script>
+    function openPopup() {
+        document.getElementById('subscribePopup').style.display = 'block';
+    }
+
+    function closePopup() {
+        document.getElementById('subscribePopup').style.display = 'none';
+    }
+</script>
+<script>
+    function openNewPage(pageUrl) {
+        window.open(pageUrl, '_blank');
+    }
+</script>
+</body>
+</html>
